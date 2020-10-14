@@ -18,8 +18,8 @@ function work(){
         x.target.classList.add('hover');
     });
 
-    start.addEventListener('mouseout', function (b) {
-        b.target.classList.remove('hover');
+    start.addEventListener('mouseout', function (x) {
+        x.target.classList.remove('hover');
     });
 }
 
